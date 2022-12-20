@@ -1,0 +1,78 @@
+body {
+  height: 100vh;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ebebeb;
+}
+
+.container {
+  height: 47%;
+  width: 18%;
+  background-color: #c0c0c0;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.output {
+  background-color: #ebebeb;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 70px;
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 15px 2px 0px 2px;
+  margin: 10px;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+}
+
+.options > button {
+  font-size: 28px;
+  padding: 25px 50px;
+  margin: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+#clear {
+  background-color: #ffa9a3;
+}
+
+#delete {
+  background-color: #59a5d8;
+}
+
+.operations {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.operations > button {
+  font-size: 28px;
+  width: 20%;
+  padding: 20px 35px;
+  margin: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+button:active {
+  opacity: 0.3;
+}
