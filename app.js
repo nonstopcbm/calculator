@@ -19,6 +19,18 @@ function toDivide(a, b) {
 }
 
 // operation function
-function operate() {
-    
+function operate(opr, a, b) {
+    switch (opr) {
+        case '+':
+            return toAdd(a, b);
+            break;
+        case '-':
+            return toSubtract(a, b);
+            break;
+        case '*':
+            return toMultiply(a, b);
+            break;
+        case '/':
+            return toDivide(a, b);
+    }
 }
